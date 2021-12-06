@@ -1,0 +1,142 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+.jw-rightclick {
+    display: none !important;
+}
+
+#player {
+    width: 100%;
+    height: 100% !important;
+}
+
+.float-btn {
+    position: fixed;
+}
+
+/* Style the tab */
+.tab {
+    position: fixed;
+    overflow: unset;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    top: 0px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+#show {
+    position: absolute;
+    top: 0;
+}
+
+#floating-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 7px 7px 0px 0px;
+    background-color: #00000000;
+    z-index: 9999;
+    display: block;
+    color: black;
+    cursor: pointer;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.playertab {
+    display: contents;
+    border-top: none;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+}
+
+#show-icon {
+    height: 20px;
+    width: 20px;
+    /*background-color: #ffffff54;*/
+    background-color: #ffffffc9;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+@media only screen and (max-width: 400px) {
+    #show-icon {
+        height: 20px;
+        width: 20px;
+        background-color: white;
+        padding: 0px 0px 0px 0px;
+        border-radius: 0px;
+    }
+
+    #floating-btn {
+        padding: 12px 5px 0px 0px;
+    }
+}
+
+.ifram {
+    position: static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0px;
+}
+
+.server-list {
+    position: absolute;
+    left: 1.2rem;
+    top: 0.5rem;
+}
+
+.tombolplay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.loads {
+    display: block;
+    position: fixed;
+    z-index: 1031;
+    top: calc(50% - (3rem / 2));
+    right: calc(50% - (3rem / 2));
+}
+
+.imgtum {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
