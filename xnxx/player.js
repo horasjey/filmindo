@@ -1,0 +1,1 @@
+$(document).ready(function(e){$(".server").on("click",function(event){event.preventDefault();var server_id=$(this).data("id");$("iframe").each(function(){var src=$(this).attr('src');$(this).attr('src',src);});$(".server").removeClass("active");$(this).addClass("active");$(".servers").hide();$(".server"+server_id).show();});});
