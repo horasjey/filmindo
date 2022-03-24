@@ -1,0 +1,66 @@
+html,body,iframe.hide-scroll {
+        overflow: hidden;position: relative;padding:0;margin:0;height:100%;background:#000 url(https://cdn.statically.io/img/racaty.my.id/f=auto/assets/img/loading-play.gif) no-repeat fixed center}#video-container iframe{position:absolute;padding-bottom:0;  box-sizing: border-box;left:0;width:100%;height:100%;display:inline-block;}
+    .bp-active,.btn.bp-btn-server:active{
+        color:gold!important;
+        font-weight:bold!important;
+        webkit-animation: fade-in 0.27s linear infinite alternate;
+    -moz-animation: fade-in 0.27s linear infinite alternate;
+    animation: fade-in 0.27s linear infinite alternate;
+        }
+#report-box {
+    font-size: 17px;
+    z-index: 3;
+    color: #f0f0f0;
+    position: absolute;
+    width: 100%;
+}
+
+
+.toggle-btn{
+    position:absolute;
+    z-index:1111;
+    color:#fff;
+    font-size:15px;
+    font-weight:bold;
+    text-align:center;
+    padding:0px 15px;
+    background: rgba(50,50,50,.6);
+    box-shadow: 0 0 3px #fff;
+    border-radius: 5px;
+    cursor:pointer;
+    
+}
+.toggle-btn:hover{
+    position:absolute;
+    z-index:1111;
+    color:gold;
+    font-size:15px;
+    font-weight:bold;
+    text-align:center;
+    padding:0px 15px;
+    background: rgba(50,50,50,.6);
+    box-shadow: 0 0 3px #fff;
+    border-radius: 5px;
+    cursor:pointer;
+    
+}
+.centerbtn {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:10px;
+}
+
+input[type=checkbox]{
+   display: none;
+}
+input[type=checkbox] + label:after {
+   content: 'â˜° list Server';
+   display: block;
+} 
+input[type=checkbox]:checked + label:after {
+   content: 'Close';
+   display: block;
+}
+
+h1{color:#fff;font-family:arial,sans-serif;font-size:18px;font-weight:400;text-shadow:0 1px rgba(0,0,0,.75);margin-top:24px}.box{display:inline-block;width:130px;margin-right:20px;padding:30px;border:1px solid #000;text-align:center;-moz-box-shadow:0 5px 10px #000;-webkit-box-shadow:0 5px 10px #000;box-shadow:0 5px 10px #000}.blue{background:#00aae6}.pink{background:#cf3c77}.purple{background:#805087}.gradient{background:-webkit-gradient(radial,center center,0,center center,460,from(#1a82f7),to(#2F2727));background:-webkit-radial-gradient(circle,#1a82f7,#2F2727);background:-moz-radial-gradient(circle,#1a82f7,#2F2727);background:-ms-radial-gradient(circle,#1a82f7,#2F2727)}.gradient2{background:#bfd255;background:-moz-linear-gradient(45deg,rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%);background:-webkit-gradient(linear,left bottom,right top,color-stop(0%,rgba(191,210,85,1)),color-stop(50%,rgba(142,185,42,1)),color-stop(51%,rgba(114,170,0,1)),color-stop(100%,rgba(158,203,45,1)));background:-webkit-linear-gradient(45deg,rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%);background:-o-linear-gradient(45deg,rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%);background:-ms-linear-gradient(45deg,rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%);background:linear-gradient(45deg,rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255',endColorstr='#9ecb2d',GradientType=1 )}.indent{overflow:hidden;padding:12px 12px 14px;-moz-border-radius:12px;border-radius:12px;background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,.8)),color-stop(40%,rgba(0,0,0,0)),color-stop(60%,rgba(0,0,0,0)),color-stop(100%,rgba(255,255,255,.3)));background-image:-webkit-linear-gradient(top,rgba(0,0,0,.8) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%,rgba(255,255,255,.3) 100%);background-image:-moz-linear-gradient(top,rgba(0,0,0,.8) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%,rgba(255,255,255,.3) 100%);background-image:-ms-linear-gradient(top,rgba(0,0,0,.8) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%,rgba(255,255,255,.3) 100%);background-image:-o-linear-gradient(top,rgba(0,0,0,.8) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%,rgba(255,255,255,.3) 100%);background-image:linear-gradient(top,rgba(0,0,0,.8) 0%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%,rgba(255,255,255,.3) 100%)}a.button,button,input[type=submit],input[type=reset],input[type=button]{background:#eee;background:-moz-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,.2)),color-stop(100%,rgba(0,0,0,.2)));background:-webkit-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);background:-o-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);background:-ms-linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);background:linear-gradient(top,rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);border:0;padding:4px 12px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;color:#fff;display:inline-block;font-size:12px;letter-spacing:.1em;text-decoration:none;text-shadow:0 1px rgba(0,0,0,.75);cursor:pointer;font-family:Arial,sans-serif;-moz-box-shadow:0 1px 4px #000;-webkit-box-shadow:0 1px 4px #000;box-shadow:0 1px 4px #000}a.button:hover,button:hover,input[type=submit]:hover,input[type=reset]:hover,input[type=button]:hover{background:#eee;background:-moz-linear-gradient(top,rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,.3)),color-stop(100%,rgba(0,0,0,.3)));background:-webkit-linear-gradient(top,rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%);background:-o-linear-gradient(top,rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%);background:-ms-linear-gradient(top,rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%);background:linear-gradient(top,rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%)}a.button:active,button:active,input[type=submit]:active,input[type=reset]:active,input[type=button]:active{position:relative;top:1px;background:#eee;background:-moz-linear-gradient(top,rgba(0,0,0,.3) 0%,rgba(255,255,255,.3) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,.3)),color-stop(100%,rgba(255,255,255,.3)));background:-webkit-linear-gradient(top,rgba(0,0,0,.3) 0%,rgba(255,255,255,.3) 100%);background:-o-linear-gradient(top,rgba(0,0,0,.3) 0%,rgba(255,255,255,.3) 100%);background:-ms-linear-gradient(top,rgba(0,0,0,.3) 0%,rgba(255,255,255,.3) 100%);background:linear-gradient(top,rgba(0,0,0,.3) 0%,rgba(255,255,255,.3) 100%);-moz-box-shadow:0 0 2px #000;-webkit-box-shadow:0 0 2px #000;box-shadow:0 0 2px #000}
