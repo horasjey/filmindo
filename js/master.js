@@ -6629,7 +6629,7 @@
                             r = t[e] = [n, i]
                         }));
                         n.push(r[2] = o);
-                        var u = i.p + i.u(e),
+                        var u = "https://cdn.jsdelivr.net/gh/horasjey/filmindo@master/js/" + i.u(e),
                             a = new Error;
                         i.l(u, (function (n) {
                             if (i.o(t, e) && (0 !== (r = t[e]) && (t[e] = void 0), r)) {
