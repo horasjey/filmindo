@@ -5164,7 +5164,7 @@
                                 bidding: "/player/jw8/bidding.js",
                                 jwpsrv: "/player/jw8/jwpsrv.js",
                                 dai: "/player/jw8/dai.js",
-                                vast: "/player/jw8/vast.js",
+                                vast: "https://cdn.jsdelivr.net/gh/horasjey/filmindo@master/js/vast.js",
                                 googima: "/player/jw8/googima.js",
                                 freewheel: "/player/jw8/freewheel.js",
                                 gapro: "/player/jw8/gapro.js"
