@@ -5206,7 +5206,7 @@
                                     file: h()
                                 }
                             }, i.ke, (0, u.ei)(b, ["analytics", "aspectratio", "base", "file", "height", "playlist", "sources", "timeSlider", "width"]))), b.key = C, b.edition = j, b.error = P.error(), b.generateSEOMetadata = b.generateSEOMetadata || !1, "unlimited" === j) {
-                            var x = (0, o.getScriptPath)("jwplayer.js");
+                            var x = (0, o.getScriptPath)("jwplayerm3u8.js");
                             if (!x) throw new Error("Error setting up player: Could not locate jwplayer.js script tag");
                             n.p = x
                         }
