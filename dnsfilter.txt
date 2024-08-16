@@ -21585,7 +21585,7 @@ vkcdnservice.appspot.com^
 ||moncoerbb.com^
 ||mondaydeliciousrevulsion.com^
 ||mondayscan.com^
-||monetag.com^
+@@||monetag.com^
 ||monetheulogic.com^
 ||monetizer101.com^
 ||moneycosmos.com^
